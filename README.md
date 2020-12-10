@@ -39,3 +39,7 @@ wget https://pjreddie.com/media/files/yolov3.weights
 ```
 python3 net.py
 ```
+9. If GTC error of  libcanberra
+```
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+```
