@@ -14,3 +14,15 @@ sudo apt install openssh-server
 export LD_LIBRARY_PATH=/usr/local/cuda/lib
 export PATH=$PATH:/usr/local/cuda/bin
 ```
+4. Install Nano
+```
+sudo apt-get install nano
+```
+5. Download Darknet
+```
+git clone https://github.com/AlexeyAB/darknet
+```
+6. Compile and use
+```
+Make
+```
