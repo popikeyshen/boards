@@ -22,11 +22,20 @@ sudo apt-get install nano
 ```
 git clone https://github.com/AlexeyAB/darknet
 ```
-6. Compile and use
+6. Compile
 ```
 nano Makefile
 ```
 set Libso=1, GPU=1
 ```
 Make
+```
+7. Load YOLOv3 weights from https://github.com/AlexeyAB/darknet 
+```
+wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov3.cfg
+wget https://pjreddie.com/media/files/yolov3.weights
+```
+8. Run
+```
+python3 net.py
 ```
