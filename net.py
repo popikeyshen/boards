@@ -15,8 +15,8 @@ class NeuralNet:
         #configPath2 = "./608.cfg"
         #weightPath2 = "./608.backup"
 
-        configPath2 = "/home/popikeyshen/yolo_run/tiny_likes.cfg"
-        weightPath2 = "/home/popikeyshen/yolo_run/tiny_likes_last.weights"
+        configPath2 = "./yolov3.cfg"
+        weightPath2 = "./yolov3.weights"
 
         metaPath2 = "./darknet.data"
         self.netMain2 = darknet.load_net_custom(configPath2.encode("ascii"), weightPath2.encode("ascii"), 0, 1)  # batch size = 1
