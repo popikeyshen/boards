@@ -35,7 +35,7 @@ Make
 wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov3.cfg
 wget https://pjreddie.com/media/files/yolov3.weights
 ```
-8. Run
+8. Add net.py, darknet.names, classes.names and run
 ```
 python3 net.py
 ```
