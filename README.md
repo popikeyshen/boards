@@ -1,4 +1,4 @@
-### Nvidia Jetson quick run neural network
+### Nvidia Jetson - quick run neural network
 1. Libegl-mesa0:armhf dependency error:
   ```
    cd /usr/share/glvnc/egl_vender.d/
