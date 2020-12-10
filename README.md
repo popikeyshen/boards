@@ -24,5 +24,9 @@ git clone https://github.com/AlexeyAB/darknet
 ```
 6. Compile and use
 ```
+nano Makefile
+```
+set Libso=1, GPU=1
+```
 Make
 ```
