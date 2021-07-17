@@ -2,7 +2,8 @@
 
 https://www.waveshare.com/high-precision-ad-da-board.htm  
 
-![High-Precision-AD-DA-Board-3.jpg](High-Precision-AD-DA-Board-3.jpg)
+
+<p align="center"> <img src="High-Precision-AD-DA-Board-3.jpg"  width = 40%  /></p>
 
 
 ```
@@ -28,4 +29,5 @@ show signal file
 ```
 python3 show.py
 ```
-![rpi_ad-da_signal.png](rpi_ad-da_signal.png)
+<p align="center"> <img src="rpi_ad-da_signal.png"  width = 40%  /></p>
+
