@@ -155,6 +155,6 @@ void loop()
   Wire.write(sintab2[lookup] >> 4);        // the 8 most significant bits...
   Wire.write((sintab2[lookup] & 15) << 4); // the 4 least significant bits...
   Wire.endTransmission();
-  lookup = (lookup + 1) & 511;
+  lookup = (lookup + 1) & 231; //511;
 }
 
