@@ -31,8 +31,11 @@ c) get a 64 version of pentoo or x64 virtual box + x64 penotoo because x86 will 
 
 
 2) Run: ```gnuradio-companion```
+
 a) connect virtual box usb (devices->USB->GreatScottGadgetsHackRFOne)
+
 b) check ```hackrf_info```
+
 c) and the most useful - add to osmocom source to Devica arguments this line ``` "soapy=0,driver=hackrf"  ```
 
 
